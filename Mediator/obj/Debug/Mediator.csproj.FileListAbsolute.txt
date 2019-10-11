@@ -12,10 +12,3 @@ C:\Users\zabih\Desktop\Mediator\obj\Debug\Mediator.pdb
 C:\Users\zabih\Desktop\Mediator\bin\Debug\Mediator.exe.config
 C:\Users\zabih\Desktop\Mediator\bin\Debug\Mediator.exe
 C:\Users\zabih\Desktop\Mediator\bin\Debug\Mediator.pdb
-C:\Users\Abdallah Ajjawi\Desktop\AU\4. semester\SWD\SWD_AFL2\Mediator\bin\Debug\Mediator.exe.config
-C:\Users\Abdallah Ajjawi\Desktop\AU\4. semester\SWD\SWD_AFL2\Mediator\bin\Debug\Mediator.exe
-C:\Users\Abdallah Ajjawi\Desktop\AU\4. semester\SWD\SWD_AFL2\Mediator\bin\Debug\Mediator.pdb
-C:\Users\Abdallah Ajjawi\Desktop\AU\4. semester\SWD\SWD_AFL2\Mediator\obj\Debug\Mediator.csprojAssemblyReference.cache
-C:\Users\Abdallah Ajjawi\Desktop\AU\4. semester\SWD\SWD_AFL2\Mediator\obj\Debug\Mediator.csproj.CoreCompileInputs.cache
-C:\Users\Abdallah Ajjawi\Desktop\AU\4. semester\SWD\SWD_AFL2\Mediator\obj\Debug\Mediator.exe
-C:\Users\Abdallah Ajjawi\Desktop\AU\4. semester\SWD\SWD_AFL2\Mediator\obj\Debug\Mediator.pdb
