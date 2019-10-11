@@ -12,7 +12,7 @@ namespace Mediator
         static void Main(string[] args)
         {
             List <ConcreteCar> C = new List<ConcreteCar>();
-            List<ConcretePerson> P=new List<ConcretePerson>();
+            List<ConcretePerson> P = new List<ConcretePerson>();
             #region MyRegion
             ConcreteCar C1=new ConcreteCar();
             Thread.Sleep(20);
@@ -105,9 +105,9 @@ namespace Mediator
 
             ConcreteTrafficLight concreteTraffic=new ConcreteTrafficLight(C, P);
 
-            concreteTraffic.NotifyForward();
+            concreteTraffic.NotifyForwardNS();
             Thread.Sleep(2000);
-            concreteTraffic.NotifyForward2();
+            concreteTraffic.NotifyForwardEW();
 
         }
     }

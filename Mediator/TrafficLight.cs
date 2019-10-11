@@ -8,8 +8,8 @@ namespace Mediator
 {
     public interface TrafficLight
     {
-        void NotifyForward();
-        void NotifyForward2();
+        void NotifyForwardNS();
+        void NotifyForwardEW();
     }
 
 
@@ -50,7 +50,7 @@ namespace Mediator
             }
         }
 
-        public void NotifyForward()
+        public void NotifyForwardNS()
         {
             foreach (var p in objects_)
             {
@@ -104,7 +104,7 @@ namespace Mediator
         }
 
 
-        public void NotifyForward2()
+        public void NotifyForwardEW()
         {
 
             foreach (var p in objects_)
