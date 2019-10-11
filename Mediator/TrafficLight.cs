@@ -17,16 +17,21 @@ namespace Mediator
     {
         private List<Object> objects_;
         public int queueN=0, QueueS=0, QueueW=0, QueueE=0;
-        private List<ConcreteCar> o_;
-        private List<ConcretePerson> p_;
 
-        public ConcreteTrafficLight(List<ConcreteCar> o, List<ConcretePerson> persons)
+        public ConcreteTrafficLight(List<ConcreteCar> CarsNorth, 
+                                    List<ConcreteCar> CarsSouth, 
+                                    List<ConcreteCar> CarsEast, 
+                                    List<ConcreteCar> CarsWest,
+                                    List<ConcretePerson> PersonsNorth,
+                                    List<ConcretePerson> PersonsSouth,
+                                    List<ConcretePerson> PersonsEast,
+                                    List<ConcretePerson> PersonsWest
+                                    )
         {
             objects_=new List<Object>();
-            p_ = persons;
-            o_ = o;
-            objects_.AddRange(o_);
-            objects_.AddRange(p_);
+
+            objects_.AddRange(Cars);
+            objects_.AddRange(Persons);
             
 
             foreach (var p in objects_)

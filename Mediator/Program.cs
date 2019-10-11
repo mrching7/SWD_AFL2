@@ -11,8 +11,15 @@ namespace Mediator
     {
         static void Main(string[] args)
         {
-            List <ConcreteCar> C = new List<ConcreteCar>();
-            List<ConcretePerson> P = new List<ConcretePerson>();
+            List<ConcreteCar> CarsNorth = new List<ConcreteCar>();
+            List<ConcreteCar> CarsSouth = new List<ConcreteCar>();
+            List<ConcreteCar> CarsEast = new List<ConcreteCar>();
+            List<ConcreteCar> CarsWest = new List<ConcreteCar>();
+            List<ConcretePerson> PersonNorth = new List<ConcretePerson>();
+            List<ConcretePerson> PersonSouth = new List<ConcretePerson>();
+            List<ConcretePerson> PersonEast = new List<ConcretePerson>();
+            List<ConcretePerson> PersonWest = new List<ConcretePerson>();
+
             #region MyRegion
             ConcreteCar C1=new ConcreteCar();
             Thread.Sleep(20);
@@ -103,7 +110,7 @@ namespace Mediator
             P.Add(p14);
             #endregion
 
-            ConcreteTrafficLight concreteTraffic=new ConcreteTrafficLight(C, P);
+            ConcreteTrafficLight concreteTraffic=new ConcreteTrafficLight(CarsNorth, CarsSouth, CarsEast, CarsWest, PersonNorth, PersonSouth, PersonEast, PersonWest);
 
             concreteTraffic.NotifyForwardNS();
             Thread.Sleep(2000);
