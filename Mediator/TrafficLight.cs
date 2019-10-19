@@ -31,9 +31,16 @@ namespace Mediator
         {
             objects_=new List<Object>();
 
-            objects_.AddRange(Cars);
-            objects_.AddRange(Persons);
-            
+            objects_.AddRange(CarsNorth);
+            objects_.AddRange(CarsSouth);
+            objects_.AddRange(CarsEast);
+            objects_.AddRange(CarsWest);
+
+            objects_.AddRange(PersonsNorth);
+            objects_.AddRange(PersonsSouth);
+            objects_.AddRange(PersonsEast);
+            objects_.AddRange(PersonsWest);  
+
 
             foreach (var p in objects_)
             {
