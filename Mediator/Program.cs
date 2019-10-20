@@ -24,25 +24,17 @@ namespace Mediator
             for (int i = 0; i <= 5; i++)
             {
                 CarsNorth.Add(new ConcreteCar());
-                Thread.Sleep(20);
                 CarsSouth.Add(new ConcreteCar());
-                Thread.Sleep(20);
                 CarsEast.Add(new ConcreteCar());
-                Thread.Sleep(20);
                 CarsWest.Add(new ConcreteCar());
-                Thread.Sleep(20);
 
                 PersonNorth.Add(new ConcretePerson());
-                Thread.Sleep(20);
                 PersonSouth.Add(new ConcretePerson());
-                Thread.Sleep(20);
                 PersonEast.Add(new ConcretePerson());
-                Thread.Sleep(20);
                 PersonWest.Add(new ConcretePerson());
-                Thread.Sleep(20);
             }
 
-            ConcreteTrafficLight concreteTraffic=new ConcreteTrafficLight(CarsNorth, CarsSouth, CarsEast, CarsWest, PersonNorth, PersonSouth, PersonEast, PersonWest);
+            ConcreteTrafficLight concreteTraffic = new ConcreteTrafficLight(CarsNorth, CarsSouth, CarsEast, CarsWest, PersonNorth, PersonSouth, PersonEast, PersonWest);
 
             concreteTraffic.NotifyForwardNS();
             Thread.Sleep(2000);

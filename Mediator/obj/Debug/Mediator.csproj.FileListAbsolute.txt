@@ -12,3 +12,10 @@ C:\Users\zabih\Desktop\Mediator\obj\Debug\Mediator.pdb
 C:\Users\zabih\Desktop\Mediator\bin\Debug\Mediator.exe.config
 C:\Users\zabih\Desktop\Mediator\bin\Debug\Mediator.exe
 C:\Users\zabih\Desktop\Mediator\bin\Debug\Mediator.pdb
+C:\Users\alika\Documents\dev\iktDEV\visualStudio\sem5\softwareDesign\github\SWD_AFL2\Mediator\bin\Debug\Mediator.exe.config
+C:\Users\alika\Documents\dev\iktDEV\visualStudio\sem5\softwareDesign\github\SWD_AFL2\Mediator\bin\Debug\Mediator.exe
+C:\Users\alika\Documents\dev\iktDEV\visualStudio\sem5\softwareDesign\github\SWD_AFL2\Mediator\bin\Debug\Mediator.pdb
+C:\Users\alika\Documents\dev\iktDEV\visualStudio\sem5\softwareDesign\github\SWD_AFL2\Mediator\obj\Debug\Mediator.csprojAssemblyReference.cache
+C:\Users\alika\Documents\dev\iktDEV\visualStudio\sem5\softwareDesign\github\SWD_AFL2\Mediator\obj\Debug\Mediator.csproj.CoreCompileInputs.cache
+C:\Users\alika\Documents\dev\iktDEV\visualStudio\sem5\softwareDesign\github\SWD_AFL2\Mediator\obj\Debug\Mediator.exe
+C:\Users\alika\Documents\dev\iktDEV\visualStudio\sem5\softwareDesign\github\SWD_AFL2\Mediator\obj\Debug\Mediator.pdb
