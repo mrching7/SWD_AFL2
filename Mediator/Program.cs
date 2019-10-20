@@ -21,17 +21,25 @@ namespace Mediator
             List<ConcretePerson> PersonWest = new List<ConcretePerson>();
 
 
-            for (int i = 0; i <= 5; i++)
+            for (int i = 0; i <= 2; i++)
             {
+                Thread.Sleep(2);
                 CarsNorth.Add(new ConcreteCar());
+                Thread.Sleep(2);
                 CarsSouth.Add(new ConcreteCar());
+                Thread.Sleep(2);
                 CarsEast.Add(new ConcreteCar());
+                Thread.Sleep(2);
                 CarsWest.Add(new ConcreteCar());
-
+                Thread.Sleep(2);
                 PersonNorth.Add(new ConcretePerson());
+                Thread.Sleep(2);
                 PersonSouth.Add(new ConcretePerson());
+                Thread.Sleep(2);
                 PersonEast.Add(new ConcretePerson());
+                Thread.Sleep(2);
                 PersonWest.Add(new ConcretePerson());
+                Thread.Sleep(2);
             }
 
             ConcreteTrafficLight concreteTraffic = new ConcreteTrafficLight(CarsNorth, CarsSouth, CarsEast, CarsWest, PersonNorth, PersonSouth, PersonEast, PersonWest);

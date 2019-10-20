@@ -36,60 +36,84 @@ namespace Mediator
             {
                 if (state == 0)
                 {
-                    Console.WriteLine("Driving forward from north to south");
+                    Console.BackgroundColor = ConsoleColor.DarkBlue;
+                    Console.WriteLine("Driving forward from NORTH to SOUTH");
+                    Console.ResetColor();
                 }
                 else if (state == 1)
                 {
-                    Console.WriteLine("Turning right from north");
+                    Console.BackgroundColor = ConsoleColor.DarkBlue;
+                    Console.WriteLine("Turning left from NORTH");
+                    Console.ResetColor();
                 }
                 else if (state == 2)
                 {
-                    Console.WriteLine("turning left from north");
+                    Console.BackgroundColor = ConsoleColor.DarkBlue;
+                    Console.WriteLine("turning right from NORTH");
+                    Console.ResetColor();
                 }
             }
             else if (location == 1)
             {
                 if (state == 0)
                 {
-                    Console.WriteLine("Driving forward from south to north");
+                    Console.BackgroundColor = ConsoleColor.DarkGreen;
+                    Console.WriteLine("Driving forward from SOUTH to NORTH");
+                    Console.ResetColor();
                 }
                 else if (state == 1)
                 {
-                    Console.WriteLine("Turning right from south");
+                    Console.BackgroundColor = ConsoleColor.DarkGreen;
+                    Console.WriteLine("Turning left from SOUTH");
+                    Console.ResetColor();
                 }
                 else if (state == 2)
                 {
-                    Console.WriteLine("turning left from south");
+                    Console.BackgroundColor = ConsoleColor.DarkGreen;
+                    Console.WriteLine("turning right from SOUTH");
+                    Console.ResetColor();
                 }
             }
             else if (location == 2)
             {
                 if (state == 0)
                 {
-                    Console.WriteLine("Driving forward from West to east");
+                    Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                    Console.WriteLine("Driving forward from WEST to EAST");
+                    Console.ResetColor();
                 }
                 else if (state == 1)
                 {
-                    Console.WriteLine("Turning right from west");
+                    Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                    Console.WriteLine("Turning left from WEST");
+                    Console.ResetColor();
                 }
                 else if (state == 2)
                 {
-                    Console.WriteLine("turning left from west");
+                    Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                    Console.WriteLine("turning right from WEST");
+                    Console.ResetColor();
                 }
             }
             else
             {
                 if (state == 0)
                 {
+                    Console.BackgroundColor = ConsoleColor.DarkYellow;
                     Console.WriteLine("Driving forward from east to west");
+                    Console.ResetColor();
                 }
                 else if (state == 1)
                 {
-                    Console.WriteLine("Turning right from east");
+                    Console.BackgroundColor = ConsoleColor.DarkYellow;
+                    Console.WriteLine("Turning left from EAST");
+                    Console.ResetColor();
                 }
                 else if (state == 2)
                 {
-                    Console.WriteLine("turning left from east");
+                    Console.BackgroundColor = ConsoleColor.DarkYellow;
+                    Console.WriteLine("turning right from EAST");
+                    Console.ResetColor();
                 }
             }
         }

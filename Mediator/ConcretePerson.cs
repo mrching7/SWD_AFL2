@@ -12,8 +12,6 @@ namespace Mediator
         private int state;
         public ConcretePerson()
         {
-            Random rnd = new Random();
-            location = rnd.Next(4);
             state = 0;
         }
         public override int Location
@@ -29,19 +27,27 @@ namespace Mediator
         {
             if (location == 0 && state == 0)
             {
+                Console.BackgroundColor = ConsoleColor.DarkGray;
                 Console.WriteLine("Pedestrian crossing the street from north west to south");
+                Console.ResetColor();
             }
             else if (location == 1 && state == 0)
             {
+                Console.BackgroundColor = ConsoleColor.DarkGray;
                 Console.WriteLine("Pedestrian crossing the street from south east to north");
+                Console.ResetColor();
             }
             else if (location == 2 && state == 0)
             {
+                Console.BackgroundColor = ConsoleColor.DarkGray;
                 Console.WriteLine("Pedestrian crossing the street from south west to east");
+                Console.ResetColor();
             }
             else if (location == 3 && state == 0)
             {
+                Console.BackgroundColor = ConsoleColor.DarkGray;
                 Console.WriteLine("Pedestrian crossing the street from north east to west");
+                Console.ResetColor();
             }
         }
 
